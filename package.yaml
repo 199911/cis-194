@@ -37,7 +37,7 @@ library:
   source-dirs: src
 
 executables:
-  cis194-exe:
+  cis194:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -57,3 +57,5 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - cis194
+    - hspec
+    - QuickCheck
