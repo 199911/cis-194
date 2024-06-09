@@ -28,6 +28,7 @@ library
       Hw1.Ex1
       Hw1.Ex2
       Hw1.Ex3
+      Hw1.Ex4
       Lib
   other-modules:
       Paths_cis194
@@ -61,6 +62,7 @@ test-suite cis194-test
       Hw1.Ex1Spec
       Hw1.Ex2Spec
       Hw1.Ex3Spec
+      Hw1.Ex4Spec
       Paths_cis194
   autogen-modules:
       Paths_cis194
