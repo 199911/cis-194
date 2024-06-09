@@ -1,8 +1,6 @@
 module Hw1.Ex3Spec (spec) where
 
 import Test.Hspec
-import Test.QuickCheck
-import Control.Exception (evaluate)
 import Hw1.Ex3
 
 spec :: Spec
