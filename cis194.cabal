@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      Hw1.Ex1
       Lib
   other-modules:
       Paths_cis194
@@ -55,6 +56,7 @@ test-suite cis194-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Hw1.Ex1Spec
       Paths_cis194
   autogen-modules:
       Paths_cis194
